@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(path = "/api/v1/vocablos")
+@CrossOrigin( origins = "http://3.80.193.188/")
 public class VocabloController {
   private final VocabloService vocabloService;
 
